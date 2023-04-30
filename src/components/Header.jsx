@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 export default function Header() {
   return (
     <header className="bg-blue-500 container h-16 flex justify-between items-center px-3 mx-auto z-50
-      mb:mt-3 mb:rounded-md">
+      mb:mt-3 mb:rounded-xl">
       <div className='h-16 flex items-center lg:hidden'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
           className="stroke-white w-10 h-10">
