@@ -26,7 +26,14 @@ export default function Home() {
           hover:bg-blue-500 hover:text-white'>شروع همکاری</Link>
       </div>
       <div className="h-full w-full flex flex-col justify-center items-center md:w-1/2">
-        <div className="bg-blue-200 h-[200px] w-full rounded-md sm:h-[400px]"></div>
+        <div className="bg-blue-200 h-[200px] w-full rounded-md sm:h-[400px] relative">
+          <div className="bg-blue-300 flex justifycenter items-center gap-2 px-2 py-1 rounded-full
+            absolute left-24 -bottom-6">
+            <div className='bg-white shadow-sm shadow-blue-700 w-2 h-2 rounded-full'></div>
+            <div className='bg-blue-700 shadow-sm shadow-blue-700 w-2 h-2 rounded-full'></div>
+            <div className='bg-white shadow-sm shadow-blue-700 w-2 h-2 rounded-full'></div>
+          </div>
+        </div>
       </div>
     </div>
   )
