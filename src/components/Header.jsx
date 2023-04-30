@@ -22,13 +22,14 @@ export default function Header() {
             className="stroke-white w-4 h-4 group-hover:rotate-90">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
-          <ul className='bg-white shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-md
-            absolute top-16 right-0 opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0'>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>تصاویر خدمات بالانس در محل</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>قطعات بالانس کارگاهی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>قطعات بالانس افقی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>دستگاه های بالانس عمودی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
+          <ul className='bg-blue-500 shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md
+            absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
+            group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>تصاویر خدمات بالانس در محل</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>قطعات بالانس کارگاهی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>قطعات بالانس افقی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>دستگاه های بالانس عمودی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
           </ul>
         </NavLink>
         <NavLink className="text-white h-full flex justify-center items-center gap-1 group relative">
@@ -37,13 +38,14 @@ export default function Header() {
             className="stroke-white w-4 h-4 group-hover:rotate-90">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
-          <ul className='bg-white shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-md
-            absolute top-16 right-0 opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0'>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>تصاویر خدمات بالانس در محل</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>قطعات بالانس کارگاهی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>قطعات بالانس افقی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>دستگاه های بالانس عمودی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
+          <ul className='bg-blue-500 shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md
+            absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
+            group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>تصاویر خدمات بالانس در محل</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>قطعات بالانس کارگاهی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>قطعات بالانس افقی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>دستگاه های بالانس عمودی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
           </ul>
         </NavLink>
         <NavLink className="text-white h-full flex justify-center items-center gap-1 group relative">
@@ -52,13 +54,14 @@ export default function Header() {
             className="stroke-white w-4 h-4 group-hover:rotate-90">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
-          <ul className='bg-white shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-md
-            absolute top-16 right-0 opacity-0 invisible translate-y-4 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0'>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>تصاویر خدمات بالانس در محل</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>قطعات بالانس کارگاهی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>قطعات بالانس افقی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>دستگاه های بالانس عمودی</li>
-            <li className='w-full py-2 px-4 rounded-md hover:bg-blue-100'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
+          <ul className='bg-blue-500 shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md
+            absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
+            group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>تصاویر خدمات بالانس در محل</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>قطعات بالانس کارگاهی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>قطعات بالانس افقی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>دستگاه های بالانس عمودی</li>
+            <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
           </ul>
         </NavLink>
       </div>
