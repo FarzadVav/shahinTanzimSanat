@@ -4,19 +4,18 @@ import "./Home.css"
 
 export default function Home() {
   return (
-    <div id='hero-section' className='container flex flex-col gap-5 mx-auto mt-5 pt-16 pb-36 rounded-xl relative'>
+    <div id='hero-section' className='container flex flex-col gap-5 mx-auto mt-5 pt-16 pb-36 relative mb:rounded-xl'>
       <div className="h-1/2 w-full flex flex-col justify-center items-center gap-5">
         <h3 className='text-white text-3xl lg:text-5xl irsB text-center'>شرکت شاهین تنظیم صنعت</h3>
-        <p className='text-white text-center px-5 mt-3'>
-          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+        <p className='text-white text-center px-5 mt-3 sm:px-24'>
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
           لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
         </p>
         <Link className='text-white border border-white py-2 px-10 rounded-full
           hover:bg-white hover:text-blue-500'>شروع همکاری</Link>
       </div>
-      <div className="bg-white shadow-xl shadow-blue-100 h-44 w-11/12 flex justify-evenly items-center rounded-xl
-        absolute -bottom-20 left-1/2 -translate-x-1/2">
+      <div className="bg-white shadow-xl shadow-blue-100 w-11/12 flex flex-wrap gap-3 justify-evenly items-center p-3 rounded-xl
+        absolute -bottom-56 left-1/2 -translate-x-1/2 md:-bottom-20">
         <div className='bg-green-200 w-36 h-36 flex justify-center items-end rounded-xl relative overflow-hidden'>
           <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
             <svg className='absolute -left-5 bottom-0' width="3rem" height="3rem" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
