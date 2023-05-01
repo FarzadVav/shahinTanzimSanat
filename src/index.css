@@ -19,10 +19,6 @@
   @apply text-gray-950 transition-all duration-200;
 }
 
-html {
-  overflow-x: hidden !important;
-}
-
 @layer base {
   .irs {
     font-family: 'irs';
