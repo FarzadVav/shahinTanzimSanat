@@ -14,7 +14,7 @@ export default function Home() {
         <Link className='text-white border border-white py-2 px-10 rounded-full
           hover:bg-white hover:text-blue-500'>شروع همکاری</Link>
       </div>
-      <div className="bg-white shadow-xl shadow-blue-100 w-11/12 flex flex-wrap gap-3 justify-evenly items-center p-3 rounded-xl
+      <div className="bg-white shadow-xl shadow-slate-300 w-11/12 flex flex-wrap gap-3 justify-evenly items-center p-3 rounded-xl
         absolute -bottom-56 left-1/2 -translate-x-1/2 md:-bottom-20">
         <div className='bg-green-200 w-36 h-36 flex justify-center items-end rounded-xl relative overflow-hidden'>
           <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
