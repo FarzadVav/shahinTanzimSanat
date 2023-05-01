@@ -22,7 +22,7 @@ export default function Header() {
             className="stroke-white w-4 h-4 group-hover:rotate-90">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
-          <ul className='bg-blue-500 shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md z-50
+          <ul className='bg-blue-500 shadow-[#efefef10] shadow-md w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md z-50
             absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
             group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
             <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>تصاویر خدمات بالانس در محل</li>
@@ -38,7 +38,7 @@ export default function Header() {
             className="stroke-white w-4 h-4 group-hover:rotate-90">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
-          <ul className='bg-blue-500 shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md z-50
+          <ul className='bg-blue-500 shadow-[#efefef10] shadow-md w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md z-50
             absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
             group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
             <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>تصاویر خدمات بالانس در محل</li>
@@ -54,7 +54,7 @@ export default function Header() {
             className="stroke-white w-4 h-4 group-hover:rotate-90">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
-          <ul className='bg-blue-500 shadow-blue-100 shadow-xl w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md z-50
+          <ul className='bg-blue-500 shadow-[#efefef10] shadow-md w-max flex flex-col gap-3 p-3 rounded-br-md rounded-bl-md z-50
             absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
             group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
             <li className='text-white w-full py-2 px-4 rounded-md hover:bg-[#efefef25]'>تصاویر خدمات بالانس در محل</li>
