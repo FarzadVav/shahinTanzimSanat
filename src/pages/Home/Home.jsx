@@ -106,15 +106,15 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-slate-200 container h-48 flex flex-col justify-center items-center gap-5 mt-80 mx-auto py-3 relative
-        rounded-xl rounded-tr-none md:mt-48">
+      <div className="bg-slate-200 container h-max flex flex-col justify-center items-center gap-5 mt-80 mx-auto py-5 relative
+        rounded-xl rounded-tr-none md:mt-48 sm:py-10">
         <div className="h-12 flex absolute -top-12 right-0">
           <button className={`bg-slate-200 py-3 px-5 rounded-tr-md
           hover:opacity-100 ${!resumeToggle && `opacity-50`}`} onClick={resumeToggleHandler}>رزومه</button>
           <button className={`bg-slate-200 py-3 px-5 rounded-tl-md
           hover:opacity-100 ${!catalogToggle && `opacity-50`}`} onClick={catalogToggleHandler}>کاتالوگ</button>
         </div>
-        <p className='w-10/12 text-center pb-2 border-b border-slate-300'>
+        <p className='w-11/12 text-center pb-2 border-b border-slate-300'>
           {
             resumeToggle ?
               `RESUME ipsum dolor sit amet, consectetur adipisicing elit. Earum beatae repellat cumque! Nostrum quos illum perspiciatis doloribus, aut autem nisi velit porro quam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam culpa odio ut!`
