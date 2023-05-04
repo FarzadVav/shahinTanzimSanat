@@ -80,9 +80,9 @@ export default function Home() {
         <p className='w-11/12 text-center pb-2 border-b border-slate-300'>
           {
             resumeToggle ?
-              `RESUME ipsum dolor sit amet, consectetur adipisicing elit. Earum beatae repellat cumque! Nostrum quos illum perspiciatis doloribus, aut autem nisi velit porro quam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam culpa odio ut!`
+              `RESUME لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.`
               : catalogToggle ?
-                `CATALOG ipsum dolor sit amet, consectetur adipisicing elit. Earum beatae repellat cumque! Nostrum quos illum perspiciatis doloribus, aut autem nisi velit porro quam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam culpa odio ut!`
+                `CATALOG لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.`
                 : ''
           }
         </p>
@@ -129,8 +129,8 @@ export default function Home() {
             <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
             <span className='text-slate-600 w-full text-sm text-center border-t border-slate-300 pt-1 mt-2'>مدیر عامل فنی و امور تخصصی</span>
-            <p className='text-slate-600 w-full text-sm hidden group-hover:block'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, nobis! Alias quas, enim impedit culpa praesentium ratione cum temporibus eos quia minima harum.
+            <p className='text-slate-600 w-full text-justify text-sm hidden pt-3 group-hover:block'>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که است.
             </p>
           </div>
           <div className="bg-slate-200 shadow-md shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
@@ -139,8 +139,8 @@ export default function Home() {
             <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
             <span className='text-slate-600 w-full text-sm text-center border-t border-slate-300 pt-1 mt-2'>مدیر عامل فنی و امور تخصصی</span>
-            <p className='text-slate-600 w-full text-sm hidden group-hover:block'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, nobis! Alias quas, enim impedit culpa praesentium ratione cum temporibus eos quia minima harum.
+            <p className='text-slate-600 w-full text-justify text-sm hidden pt-3 group-hover:block'>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که است.
             </p>
           </div>
           <div className="bg-slate-200 shadow-md shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
@@ -149,8 +149,8 @@ export default function Home() {
             <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
             <span className='text-slate-600 w-full text-sm text-center border-t border-slate-300 pt-1 mt-2'>مدیر عامل فنی و امور تخصصی</span>
-            <p className='text-slate-600 w-full text-sm hidden group-hover:block'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, nobis! Alias quas, enim impedit culpa praesentium ratione cum temporibus eos quia minima harum.
+            <p className='text-slate-600 w-full text-justify text-sm hidden pt-3 group-hover:block'>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که است.
             </p>
           </div>
         </div>
