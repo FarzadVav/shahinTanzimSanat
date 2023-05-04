@@ -9,9 +9,12 @@ export default {
     extend: {
       screens: {
         "mb": "375px"
+      },
+      container: {
+        center: true
       }
     },
   },
-  
+
   plugins: [],
 }

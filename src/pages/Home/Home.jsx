@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <>
-      <div id='hero-section' className='container flex flex-col gap-5 mx-auto mt-5 pt-16 pb-36 relative mb:rounded-xl'>
+      <div id='hero-section' className='container flex flex-col gap-5 pt-16 pb-36 relative rounded-md md:rounded-xl'>
         <div className="h-1/2 w-full flex flex-col justify-center items-center gap-5">
           <h3 className='text-white text-3xl lg:text-5xl irsB text-center'>شرکت شاهین تنظیم صنعت</h3>
           <p className='text-white text-center px-5 mt-3 sm:px-24'>
@@ -105,7 +105,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-slate-200 container h-max flex flex-col justify-center items-center gap-5 mt-80 mx-auto py-5 relative
+      <div className="bg-slate-200 container h-max flex flex-col justify-center items-center gap-5 mt-80 py-5 relative
         rounded-xl rounded-tr-none md:mt-48 sm:py-10">
         <div className="h-12 flex absolute -top-12 right-0">
           <button className={`bg-slate-200 py-3 px-5 rounded-tr-md
@@ -147,7 +147,7 @@ export default function Home() {
         }
       </div>
 
-      <div className="container flex flex-col gap-12 mx-auto mt-16">
+      <div className="container flex flex-col gap-12 mt-16">
         <Title
           svg={(
             <svg className='w-9 h-9 sm:w-12 sm:h-12' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -192,7 +192,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container flex justify-center items-center gap-4 mx-auto mt-24
+      <div className="container flex justify-center items-center gap-4 mt-24
         sm:gap-16 lg:gap-32">
         <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
@@ -205,7 +205,7 @@ export default function Home() {
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
       </div>
-      <div className="container flex justify-center items-center gap-16 mx-auto mt-12
+      <div className="container flex justify-center items-center gap-16 mt-12
         md:mt-8 lg:gap-16">
         <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 hidden flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52 md:flex">
@@ -226,7 +226,7 @@ export default function Home() {
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
       </div>
-      <div className="container flex justify-center items-center gap-4 mx-auto mt-12
+      <div className="container flex justify-center items-center gap-4 mt-12
         sm:gap-16 md:mt-8 lg:gap-32">
         <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">

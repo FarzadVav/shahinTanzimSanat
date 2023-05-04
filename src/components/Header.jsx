@@ -3,8 +3,8 @@ import { Link, NavLink } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <header className="container h-16 flex justify-between items-center px-3 mx-auto z-50
-      mb:mt-3 mb:rounded-xl">
+    <header className="container h-16 flex justify-between items-center p-5 py-10 mx-auto z-50
+      mb:rounded-xl">
       <div className='h-16 flex items-center lg:hidden'>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
           className="stroke-blue-500 w-10 h-10">
