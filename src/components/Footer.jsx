@@ -2,9 +2,10 @@ import { Link } from "react-router-dom"
 
 export default function Footer() {
   return (
-    <div className="bg-slate-200 w-full flex flex-col justify-center items-center pt-16 mt-28 relative">
-      <div className="bg-blue-500 h-32 flex justify-between items-center gap-10 px-10
-        absolute right-0 -top-16 rounded-md rounded-tr-none rounded-br-none">
+    <div className="bg-slate-200 w-full flex flex-col justify-center items-center mt-16 relative
+      md:pt-16 md:mt-28">
+      <div className="bg-blue-500 h-32 hidden justify-between items-center gap-10 px-10
+        absolute right-0 -top-16 rounded-md rounded-tr-none rounded-br-none md:flex">
           <h2 className="text-white text-xl irsB">
             اگر پیشنهاد همکاری دارید یا قصد دارید با ما در ارتباط باشید
             <br />
@@ -12,8 +13,10 @@ export default function Footer() {
           </h2>
           <Link className="btn-outline-white">ارتباط با ما</Link>
         </div>
-      <div className="w-full flex justify-between items-start gap-10 p-10">
-        <div className="w-1/4 flex flex-col justify-center items-center gap-5">
+      <div className="w-full flex flex-col justify-between items-start gap-10 p-5 pt-10
+        md:flex-row md:gap-5 lg:gap-10 lg:p-10">
+        <div className="w-full flex flex-col-reverse justify-center items-center gap-5
+          md:w-1/4 md:flex-col">
           <img className='w-1/2' src="./../../public/imgs/logo-png.png" alt="logo" />
           <a className="bg-blue-500 w-10 h-10 flex justify-center items-center rounded-full
             hover:scale-110" href="#header">
@@ -22,21 +25,26 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-        <div className="w-1/4 flex flex-col justify-start items-start gap-5">
-          <h6 className="text-blue-500 text-3xl irsB">رسالت ما</h6>
+        <div className="w-full flex flex-col justify-start items-start gap-5
+          md:w-1/4">
+          <h6 className="text-blue-500 w-full text-3xl irsB text-center
+            md:text-right">رسالت ما</h6>
           <p className="text-justify px-5">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
           </p>
         </div>
-        <div className="w-1/4 flex flex-col justify-start items-start gap-5">
-          <h6 className="text-blue-500 text-3xl irsB">لینک ها</h6>
+        <div className="w-full flex flex-col justify-start items-start gap-5
+          md:w-1/4">
+          <h6 className="text-blue-500 w-full text-3xl irsB text-center
+            md:text-right">لینک ها</h6>
           <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
           <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
           <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
           <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
         </div>
-        <div className="w-1/4 flex flex-col justify-start items-start gap-5">
-          <h6 className="text-blue-500 text-3xl irsB">خبرنامه</h6>
+        <div className="w-full flex flex-col justify-start items-start gap-5
+          md:w-1/4">
+          <h6 className="text-blue-500 w-full text-3xl irsB text-center md:text-right">خبرنامه</h6>
           <p className="text-justify px-5">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
           </p>
@@ -52,11 +60,13 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="bg-slate-300 w-full flex justify-center items-center p-5">
-        <p className="text-slate-700 border-l border-slate-400 pl-5">تمام حقوق این وبسایت در اختیار
+      <div className="bg-slate-300 w-full flex flex-col gap-3 justify-center items-center p-5
+        md:flex-row md:gap-0">
+        <p className="text-slate-700 border-none border-slate-400 text-center pl-5
+          md:border-l">تمام حقوق این وبسایت در اختیار
           <span className="text-slate-700 irsB px-1"> شاهین تنظیم صنعت </span>
           می باشد ©</p>
-        <div className="text-slate-700 flex justify-center items-center gap-2 pr-5">
+        <div className="text-slate-700 text-center flex justify-center items-center gap-2 pr-5">
           توسعه وبسایت توسط
           <a className="px-1 irsB flex justify-center items-center gap-2" href="#">فرزاد
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
