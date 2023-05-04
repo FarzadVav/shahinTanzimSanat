@@ -64,6 +64,7 @@ export default function Header() {
             <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
           </ul>
         </NavLink>
+        <NavLink className="text-blue-500 h-full flex justify-center items-center gap-1">درباره شرکت</NavLink>
       </div>
       <div className="flex items-center gap-5">
         <span className='text-2xl text-blue-500 irsB'>Logo</span>
