@@ -34,8 +34,7 @@ export default function Home() {
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
           </p>
-          <Link className='text-white border border-white py-2 px-10 rounded-full
-          hover:bg-white hover:text-blue-500'>شروع همکاری</Link>
+          <Link className='btn-outline-white'>شروع همکاری</Link>
         </div>
         <div className="bg-white shadow-xl shadow-slate-300 w-11/12 flex flex-wrap gap-3 justify-evenly items-center p-3 rounded-xl
         absolute -bottom-56 left-1/2 -translate-x-1/2 md:-bottom-20">
@@ -126,9 +125,7 @@ export default function Home() {
         {
           resumeToggle ?
             (
-              <a href="#" className='bg-slate-200 text-blue-500 border border-blue-500
-              flex justify-center items-center gap-3 py-2 px-7
-              rounded-full hover:bg-blue-500 hover:text-white group'>دانلود رزومه
+              <a href="#" className='btn-outline-blue group'>دانلود رزومه
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                   className="stroke-blue-500 w-5 h-5 duration-0 group-hover:stroke-white">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />

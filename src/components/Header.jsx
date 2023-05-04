@@ -67,8 +67,7 @@ export default function Header() {
       </div>
       <div className="flex items-center gap-5">
         <span className='text-2xl text-blue-500 irsB'>Logo</span>
-        <Link className='bg-white text-blue-500 border border-blue-500 irsB py-2 px-5 rounded-md
-        hover:bg-blue-500 hover:text-white'>همکاری با ما</Link>
+        <Link className='btn-outline-blue'>همکاری با ما</Link>
       </div>
     </header>
   )
