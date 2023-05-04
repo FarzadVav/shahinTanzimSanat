@@ -191,6 +191,54 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className="container flex justify-center items-center gap-4 mx-auto mt-24
+        sm:gap-16 lg:gap-32">
+        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+          lg:w-52 lg:h-52">
+          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
+        </div>
+        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+          lg:w-52 lg:h-52">
+          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
+        </div>
+      </div>
+      <div className="container flex justify-center items-center gap-16 mx-auto mt-12
+        md:mt-8 lg:gap-16">
+        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 hidden flex-col justify-center items-center rounded-full
+          lg:w-52 lg:h-52 md:flex">
+          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
+        </div>
+        <div className="bg-slate-200 w-56 h-56 flex justify-center items-center rounded-full relative
+          lg:w-72 lg:h-72">
+          <img className='w-52' src="./../../public/imgs/logo-png.png" alt="logo" />
+          <div className="bg-slate-200 w-[17rem] h-[17rem] rounded-full absolute -z-10 opacity-25
+            lg:w-[22rem] lg:h-[22rem]"></div>
+          <div className="bg-slate-200 w-[19rem] h-[19rem] rounded-full absolute -z-10 opacity-25
+            lg:w-[20rem] lg:h-[20rem]"></div>
+        </div>
+        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 hidden flex-col justify-center items-center rounded-full
+          lg:w-52 lg:h-52 md:flex">
+          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
+        </div>
+      </div>
+      <div className="container flex justify-center items-center gap-4 mx-auto mt-12
+        sm:gap-16 md:mt-8 lg:gap-32">
+        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+          lg:w-52 lg:h-52">
+          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
+        </div>
+        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+          lg:w-52 lg:h-52">
+          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
+        </div>
+      </div>
     </>
   )
 }
