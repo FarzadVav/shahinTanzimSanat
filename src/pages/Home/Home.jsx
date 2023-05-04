@@ -160,7 +160,7 @@ export default function Home() {
         />
         <div className="w-full flex flex-wrap gap-x-24 gap-y-16 justify-center items-center">
           <div className="bg-slate-200 shadow-md shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
-          group hover:h-[410px]">
+          duration-500 group hover:h-[410px]">
             <div className="w-12 h-40 border-[1rem] border-dotted border-blue-500 absolute -right-6 top-5 opacity-25"></div>
             <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
@@ -170,7 +170,7 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-slate-200 shadow-md shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
-          group hover:h-[410px]">
+          duration-500 group hover:h-[410px]">
             <div className="w-12 h-40 border-[1rem] border-dotted border-blue-500 absolute -right-6 top-5 opacity-25"></div>
             <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
@@ -180,7 +180,7 @@ export default function Home() {
             </p>
           </div>
           <div className="bg-slate-200 shadow-md shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
-          group hover:h-[410px]">
+          duration-500 group hover:h-[410px]">
             <div className="w-12 h-40 border-[1rem] border-dotted border-blue-500 absolute -right-6 top-5 opacity-25"></div>
             <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
