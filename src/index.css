@@ -28,6 +28,10 @@
     font-family: 'irsB';
   }
 
+  .ltr {
+    direction: ltr;
+  }
+
   .btn-outline-white {
     @apply text-white border border-white flex justify-center items-center gap-2 py-2 px-7 rounded-full hover:bg-white hover:text-blue-500;
   }
