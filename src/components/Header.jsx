@@ -28,8 +28,8 @@ export default function Header() {
         <NavLink to='/contact' className={link => link.isActive ? 'mobile-menu__nav-link-active' : 'mobile-menu__nav-link'}
           onClick={toggleMobileMenu}>ارتباط با ما</NavLink>
       </menu>
-      <header className="container h-16 flex justify-between items-center p-5 py-10 mx-auto z-50
-      mb:rounded-xl">
+      <header className="container h-16 flex justify-between items-center px-3 py-10 mx-auto z-50
+        mb:rounded-xl">
         <div className='h-16 flex items-center relative
         lg:hidden' onClick={toggleMobileMenu}>
           {
@@ -44,49 +44,15 @@ export default function Header() {
             )
           }
         </div>
-        <div className="h-16 hidden items-center gap-5 lg:flex">
-          <NavLink className="text-blue-500 h-full flex items-center">صفحه اصلی</NavLink>
-          <NavLink className="text-blue-500 h-full flex justify-center items-center gap-1 group">
-            مقالات
-          </NavLink>
-          <NavLink to={"/gallery"} className="text-blue-500 h-full flex justify-center items-center gap-1">گالری</NavLink>
-          <NavLink className="text-blue-500 h-full flex justify-center items-center gap-1 group relative">
-            افتخارات
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
-              className="stroke-blue-500 w-4 h-4 group-hover:rotate-180">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-            <ul className='bg-white shadow-[#25252535] shadow-lg w-max flex flex-col gap-3 p-3 rounded-xl z-50
-            absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
-            group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>تصاویر خدمات بالانس در محل</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>قطعات بالانس کارگاهی</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>قطعات بالانس افقی</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>دستگاه های بالانس عمودی</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
-            </ul>
-          </NavLink>
-          <NavLink className="text-blue-500 h-full flex justify-center items-center gap-1 group relative">
-            درباره شرکت
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
-              className="stroke-blue-500 w-4 h-4 group-hover:rotate-180">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-            </svg>
-            <ul className='bg-white shadow-[#25252535] shadow-lg w-max flex flex-col gap-3 p-3 rounded-xl z-50
-            absolute top-16 right-0 opacity-0 invisible -translate-y-2 scale-x-90
-            group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0'>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>تصاویر خدمات بالانس در محل</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>قطعات بالانس کارگاهی</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>قطعات بالانس افقی</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>دستگاه های بالانس عمودی</li>
-              <li className='text-blue-500 w-full py-2 px-4 rounded-md hover:bg-slate-100'>دستگاه های بالانس پرتابل و آنالیز حرفه ای</li>
-            </ul>
-          </NavLink>
-          <NavLink className="text-blue-500 h-full flex justify-center items-center gap-1">ارتباط با ما</NavLink>
+        <div className="h-16 hidden items-center gap-7 lg:flex">
+          <NavLink to='/' className="text-blue-500 h-full flex items-center">صفحه اصلی</NavLink>
+          <NavLink to='/blogs' className="text-blue-500 h-full flex justify-center items-center">مقالات</NavLink>
+          <NavLink to='/gallery' className="text-blue-500 h-full flex justify-center items-center">گالری</NavLink>
+          <NavLink to='/honors' className="text-blue-500 h-full flex justify-center items-center">افتخارات</NavLink>
+          <NavLink to='/about' className="text-blue-500 h-full flex justify-center items-center">درباره شرکت</NavLink>
+          <NavLink to='/contact' className="text-blue-500 h-full flex justify-center items-center">ارتباط با ما</NavLink>
         </div>
-        <div className="flex items-center gap-5">
-          <Link className='btn-outline-blue'>همکاری با ما</Link>
-        </div>
+        <Link to='/work' className='btn-outline-blue'>همکاری با ما</Link>
       </header>
     </>
   )
