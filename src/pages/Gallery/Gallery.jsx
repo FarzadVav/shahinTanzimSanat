@@ -45,7 +45,7 @@ export default function Gallery() {
         lg:columns-3">
           {
             images.map(img => (
-              <img className='shadow-md shadow-slate-400 w-full mb-3 cursor-zoom-in hover:brightness-75'
+              <img className='shadow-sm shadow-slate-400 w-full mb-3 cursor-zoom-in hover:brightness-75'
                 src={img.imgSrc} alt="gallery images" key={img.id} onClick={() => showModal(img.imgSrc)} />
             ))
           }
