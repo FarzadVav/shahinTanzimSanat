@@ -45,12 +45,12 @@ export default function Header() {
           }
         </div>
         <div className="h-16 hidden items-center gap-7 lg:flex">
-          <NavLink to='/' className="text-blue-500 h-full flex items-center">صفحه اصلی</NavLink>
-          <NavLink to='/blogs' className="text-blue-500 h-full flex justify-center items-center">مقالات</NavLink>
-          <NavLink to='/gallery' className="text-blue-500 h-full flex justify-center items-center">گالری</NavLink>
-          <NavLink to='/honors' className="text-blue-500 h-full flex justify-center items-center">افتخارات</NavLink>
-          <NavLink to='/about' className="text-blue-500 h-full flex justify-center items-center">درباره شرکت</NavLink>
-          <NavLink to='/contact' className="text-blue-500 h-full flex justify-center items-center">ارتباط با ما</NavLink>
+          <NavLink to='/' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>صفحه اصلی</NavLink>
+          <NavLink to='/blogs' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>مقالات</NavLink>
+          <NavLink to='/gallery' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>گالری</NavLink>
+          <NavLink to='/honors' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>افتخارات</NavLink>
+          <NavLink to='/about' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>درباره شرکت</NavLink>
+          <NavLink to='/contact' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>ارتباط با ما</NavLink>
         </div>
         <Link to='/work' className='btn-outline-blue'>همکاری با ما</Link>
       </header>
