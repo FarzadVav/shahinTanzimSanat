@@ -32,7 +32,7 @@ export default function Gallery() {
 
   return (
     <>
-      <div className='container flex flex-col justify-center items-center p-3
+      <div className='container flex flex-col justify-center items-center px-3
         sm:p-0'>
         <div className="flex justify-center items-center gap-3">
           <svg className="stroke-blue-500 w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" >

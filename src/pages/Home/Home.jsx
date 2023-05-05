@@ -27,88 +27,105 @@ export default function Home() {
 
   return (
     <>
-      <div id='hero-section' className='container flex flex-col gap-5 pt-16 pb-36 relative md:rounded-xl'>
-        <div className="h-1/2 w-full flex flex-col justify-center items-center gap-5">
-          <h3 className='text-white text-3xl lg:text-5xl irsB text-center'>شرکت شاهین تنظیم صنعت</h3>
-          <p className='text-white text-center px-5 mt-3 sm:px-24'>
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
-            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
-          </p>
-          <Link className='btn-outline-white'>شروع همکاری</Link>
-        </div>
-        <div className="bg-white shadow-xl shadow-slate-300 w-11/12 flex flex-wrap gap-3 justify-evenly items-center p-3 rounded-xl
-        absolute -bottom-56 left-1/2 -translate-x-1/2 md:-bottom-20">
-          <div className='bg-green-200 w-36 h-36 flex justify-center items-end rounded-xl relative overflow-hidden'>
-            <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
-              <img className='drop-shadow-sm w-20 h-20 absolute -left-9 -bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
-            </div>
-            <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
-            <h3 className='text-green-700 irsB mb-5 z-10'>تنطیم قطعات</h3>
+      <div className='container px-3 sm:p-0'>
+        <div id='hero-section' className='w-full flex flex-col gap-5 pt-16 pb-36 relative rounded-xl'>
+          <div className="h-1/2 w-full flex flex-col justify-center items-center gap-3
+            sm:gap-5">
+            <h3 className='text-white text-3xl lg:text-5xl irsB text-center px-5 sm:p-0'>شرکت شاهین تنظیم صنعت</h3>
+            <p className='text-white text-center px-5 mt-3 sm:px-24'>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+            </p>
+            <Link className='btn-outline-white'>شروع همکاری</Link>
           </div>
-          <div className='bg-green-200 w-36 h-36 flex justify-center items-end rounded-xl relative overflow-hidden'>
-            <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
-              <img className='drop-shadow-sm w-20 h-20 absolute -left-9 -bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+          <div className="bg-white shadow-xl shadow-slate-300 w-11/12 flex flex-wrap gap-3 justify-evenly items-center p-3 rounded-xl
+            absolute -bottom-48 left-1/2 -translate-x-1/2 md:-bottom-20">
+            <div className='bg-green-200 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+              sm:w-36 sm:h-36'>
+              <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
+                <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
+                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+              </div>
+              <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
+              <h3 className='text-green-700 irsB mb-3 z-10
+                sm:mb-5'>تنطیم قطعات</h3>
             </div>
-            <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
-            <h3 className='text-green-700 irsB mb-5 z-10'>تنطیم قطعات</h3>
-          </div>
-          <div className='bg-green-200 w-36 h-36 flex justify-center items-end rounded-xl relative overflow-hidden'>
-            <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
-              <img className='drop-shadow-sm w-20 h-20 absolute -left-9 -bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+            <div className='bg-green-200 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+              sm:w-36 sm:h-36'>
+              <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
+                <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
+                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+              </div>
+              <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
+              <h3 className='text-green-700 irsB mb-3 z-10
+                sm:mb-5'>تنطیم قطعات</h3>
             </div>
-            <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
-            <h3 className='text-green-700 irsB mb-5 z-10'>تنطیم قطعات</h3>
-          </div>
-          <div className='bg-green-200 w-36 h-36 flex justify-center items-end rounded-xl relative overflow-hidden'>
-            <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
-              <img className='drop-shadow-sm w-20 h-20 absolute -left-9 -bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+            <div className='bg-green-200 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+              sm:w-36 sm:h-36'>
+              <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
+                <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
+                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+              </div>
+              <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
+              <h3 className='text-green-700 irsB mb-3 z-10
+                sm:mb-5'>تنطیم قطعات</h3>
             </div>
-            <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
-            <h3 className='text-green-700 irsB mb-5 z-10'>تنطیم قطعات</h3>
+            <div className='bg-green-200 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+              sm:w-36 sm:h-36'>
+              <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
+                <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
+                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+              </div>
+              <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
+              <h3 className='text-green-700 irsB mb-3 z-10
+                sm:mb-5'>تنطیم قطعات</h3>
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-slate-200 container h-max flex flex-col justify-center items-center gap-5 mt-80 py-5 relative
-        rounded-xl rounded-tr-none md:mt-48 sm:py-10">
-        <div className="h-12 flex absolute -top-12 right-0">
-          <button className={`bg-slate-200 py-3 px-5 rounded-tr-md
+      <div className="container px-3 sm:p-0">
+        <div className='bg-slate-200 h-max flex flex-col justify-center items-center gap-5 mt-80 py-5 relative
+          rounded-xl rounded-tr-none md:mt-48 sm:py-10'>
+          <div className="h-12 flex absolute -top-12 right-0">
+            <button className={`bg-slate-200 py-3 px-5 rounded-tr-md
           hover:opacity-100 ${!resumeToggle && `opacity-50`}`} onClick={resumeToggleHandler}>رزومه</button>
-          <button className={`bg-slate-200 py-3 px-5 rounded-tl-md
+            <button className={`bg-slate-200 py-3 px-5 rounded-tl-md
           hover:opacity-100 ${!catalogToggle && `opacity-50`}`} onClick={catalogToggleHandler}>کاتالوگ</button>
-        </div>
-        <p className='w-11/12 text-center pb-2 border-b border-slate-300'>
+          </div>
+          <p className='w-11/12 text-center pb-2 border-b border-slate-300'>
+            {
+              resumeToggle ?
+                `RESUME لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.`
+                : catalogToggle ?
+                  `CATALOG لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.`
+                  : ''
+            }
+          </p>
           {
             resumeToggle ?
-              `RESUME لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.`
-              : catalogToggle ?
-                `CATALOG لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.`
-                : ''
-          }
-        </p>
-        {
-          resumeToggle ?
-            (
-              <a href="#" className='btn-outline-blue group'>دانلود رزومه
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
-                  className="stroke-blue-500 w-5 h-5 duration-0 group-hover:stroke-white">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                </svg>
-              </a>
-            )
-            : catalogToggle ?
               (
-                <a href="#" className='bg-slate-200 text-blue-500 border border-blue-500
-                flex justify-center items-center gap-3 py-2 px-7
-                rounded-full hover:bg-blue-500 hover:text-white group'>دانلود کاتالوگ
+                <a href="#" className='btn-outline-blue group'>دانلود رزومه
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                     className="stroke-blue-500 w-5 h-5 duration-0 group-hover:stroke-white">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
                   </svg>
                 </a>
               )
-              : ''
-        }
+              : catalogToggle ?
+                (
+                  <a href="#" className='bg-slate-200 text-blue-500 border border-blue-500
+                flex justify-center items-center gap-3 py-2 px-7
+                rounded-full hover:bg-blue-500 hover:text-white group'>دانلود کاتالوگ
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
+                      className="stroke-blue-500 w-5 h-5 duration-0 group-hover:stroke-white">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+                    </svg>
+                  </a>
+                )
+                : ''
+          }
+        </div>
       </div>
 
       <div className="container flex flex-col gap-12 mt-16">
