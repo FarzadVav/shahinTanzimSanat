@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="container flex flex-col gap-12 mt-16">
+      <div className="container flex flex-col gap-12 px-3 mt-16 sm:p-0">
         <Title
           svg={(
             <svg className='w-9 h-9 sm:w-12 sm:h-12' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
