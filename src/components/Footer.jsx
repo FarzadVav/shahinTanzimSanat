@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export default function Footer() {
   return (
-    <div className="bg-slate-200 border-t-4 border-blue-200 w-full flex flex-col justify-center items-center mt-16 relative
+    <div className="bg-slate-200 border-t border-blue-500 w-full flex flex-col justify-center items-center mt-16 relative
       md:border-none md:pt-16 md:mt-28">
       <div className="bg-blue-500 h-32 hidden justify-between items-center gap-10 px-10
         absolute right-0 -top-16 rounded-md rounded-tr-none rounded-br-none md:flex">
