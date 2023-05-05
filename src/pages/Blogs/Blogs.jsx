@@ -7,7 +7,7 @@ function BlogBox() {
     <div className='bg-slate-200 w-72 flex flex-col justify-center items-center gap-5 rounded-xl pb-3 px-3'>
       <div className="bg-slate-300 w-72 h-72 rounded-t-xl overflow-hidden"></div>
       <div className="w-full flex justify-center items-center h-12">
-        <Link className='irsB text-center hover:text-blue-500'>چگونه دستگاه x را تهیه کنیم و آنرا نصب، سپس استفاده کنیم!</Link>
+        <Link to='/single-blog' className='irsB text-center hover:text-blue-500'>چگونه دستگاه x را تهیه کنیم و آنرا نصب، سپس استفاده کنیم!</Link>
       </div>
       <div className="w-full h-5 flex justify-center items-center gap-3 select-none">
         <svg className="stroke-slate-700 w-5 h-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1} stroke="currentColor">
