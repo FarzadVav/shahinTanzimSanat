@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="w-full flex flex-col justify-between items-start gap-10 p-5 pt-10
         md:flex-row md:gap-5 lg:gap-10 lg:p-10">
         <div className="w-full flex flex-col justify-center items-center gap-5
-          md:w-1/4">
+          md:w-1/3">
           <img className='w-1/2' src="./../../public/imgs/logo-png.png" alt="logo" />
           <span className="flex justify-center items-center gap-2">example@gnail.com
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
@@ -30,7 +30,7 @@ export default function Footer() {
           </span>
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-5
-          md:w-1/4">
+          md:w-1/3">
           <h6 className="text-blue-500 w-full text-3xl irsB text-center
             md:text-right">رسالت ما</h6>
           <p className="text-justify px-5">
@@ -38,16 +38,7 @@ export default function Footer() {
           </p>
         </div>
         <div className="w-full flex flex-col justify-start items-start gap-5
-          md:w-1/4">
-          <h6 className="text-blue-500 w-full text-3xl irsB text-center
-            md:text-right">لینک ها</h6>
-          <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
-          <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
-          <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
-          <Link className="underline decoration-slate-500 w-full text-center">گالری قطعات بالانس</Link>
-        </div>
-        <div className="w-full flex flex-col justify-start items-start gap-5
-          md:w-1/4">
+          md:w-1/3">
           <h6 className="text-blue-500 w-full text-3xl irsB text-center md:text-right">خبرنامه</h6>
           <p className="text-justify px-5">
             لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
