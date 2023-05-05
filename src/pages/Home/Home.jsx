@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <>
-      <div id='hero-section' className='container flex flex-col gap-5 pt-16 pb-36 relative rounded-t-md md:rounded-xl'>
+      <div id='hero-section' className='container flex flex-col gap-5 pt-16 pb-36 relative md:rounded-xl'>
         <div className="h-1/2 w-full flex flex-col justify-center items-center gap-5">
           <h3 className='text-white text-3xl lg:text-5xl irsB text-center'>شرکت شاهین تنظیم صنعت</h3>
           <p className='text-white text-center px-5 mt-3 sm:px-24'>
