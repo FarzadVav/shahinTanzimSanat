@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 export default function Footer() {
   return (
@@ -11,7 +11,7 @@ export default function Footer() {
           <br />
           ما مشتاق دریافت پیام شما هستیم
         </h2>
-        <Link className="btn-outline-white">ارتباط با ما</Link>
+        <NavLink to='/contact' className="btn-outline-white">ارتباط با ما</NavLink>
       </div>
       <div className="w-full flex flex-col justify-between items-center gap-10 p-5
         md:flex-row md:gap-5 lg:gap-10">
