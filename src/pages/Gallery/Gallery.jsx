@@ -2,42 +2,37 @@ import React, { useState } from 'react'
 import "./Gallery.css"
 import Title from '../../components/Title'
 
-import aroosak from "./../../../public/imgs/aroosak.jpg"
-import bahram from "./../../../public/imgs/bahram.jpg"
-import pepeFootball from "./../../../public/imgs/pepe-football.jpg"
-import pepe from "./../../../public/imgs/pepe.jpg"
-import person from "./../../../public/imgs/person.jpg"
-import shayea from "./../../../public/imgs/shayea.jpg"
+import img from "./../../../public/imgs/gallery.jpg"
 
 const images = [
   {
     id: 1,
-    imgSrc: aroosak,
+    imgSrc: img,
     desc: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. عروسک'
   },
   {
     id: 2,
-    imgSrc: bahram,
+    imgSrc: img,
     desc: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.'
   },
   {
     id: 3,
-    imgSrc: pepeFootball,
+    imgSrc: img,
     desc: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.'
   },
   {
     id: 4,
-    imgSrc: pepe,
+    imgSrc: img,
     desc: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.'
   },
   {
     id: 5,
-    imgSrc: person,
+    imgSrc: img,
     desc: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.'
   },
   {
     id: 6,
-    imgSrc: shayea,
+    imgSrc: img,
     desc: 'لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. شایع'
   },
 ]
@@ -78,13 +73,13 @@ export default function Gallery() {
         </div>
         <div className={modal ? 'modal show-modal' : 'modal'} data-close='true' onClick={closeModal}>
           <div className="bg-white w-full h-max cursor-auto p-3
-            rounded-xl lg:rounded-tl-none lg:rounded-bl-none lg:rounded-tr-xl lg:rounded-br-xl
-            sm:gap-5 sm:p-5 lg:w-1/2 lg:h-full">
+            rounded-b-xl lg:rounded-none lg:rounded-r-xl
+            sm:gap-5 sm:p-5 lg:w-64 lg:h-[75vh]">
             <p className='text-justify'>{src.desc}</p>
           </div>
           <img className='shadow-sm w-full cursor-auto
-            rounded-xl lg:rounded-tr-none lg:rounded-br-none lg:rounded-tl-xl lg:rounded-bl-xl
-            sm:h-[50vh] sm:w-max lg:h-full' src={src.imgSrc} alt="imge in modal" />
+            rounded-t-xl lg:rounded-none lg:rounded-l-xl
+            sm:w-max lg:h-[75vh]' src={src.imgSrc} alt="imge in modal" />
         </div>
       </div>
     </>
