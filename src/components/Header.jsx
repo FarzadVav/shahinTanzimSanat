@@ -25,8 +25,6 @@ export default function Header() {
           onClick={toggleMobileMenu}>افتخارات</NavLink>
         <NavLink to='/about' className={link => link.isActive ? 'mobile-menu__nav-link-active' : 'mobile-menu__nav-link'}
           onClick={toggleMobileMenu}>درباره شرکت</NavLink>
-        <NavLink to='/contact' className={link => link.isActive ? 'mobile-menu__nav-link-active' : 'mobile-menu__nav-link'}
-          onClick={toggleMobileMenu}>ارتباط با ما</NavLink>
       </menu>
       <header className="container h-16 flex justify-between items-center px-3 py-10 mx-auto z-50
         mb:rounded-xl">
@@ -50,9 +48,8 @@ export default function Header() {
           <NavLink to='/gallery' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>گالری</NavLink>
           <NavLink to='/honors' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>افتخارات</NavLink>
           <NavLink to='/about' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>درباره شرکت</NavLink>
-          <NavLink to='/contact' className={link => link.isActive ? 'nav-link-active' : 'nav-link'}>ارتباط با ما</NavLink>
         </div>
-        <Link to='/work' className='btn-outline-blue'>همکاری با ما</Link>
+        <NavLink to='/contact' className={link => link.isActive ? 'btn-bg-blue' : 'btn-outline-blue'}>ارتباط / همکاری با ما</NavLink>
       </header>
     </>
   )
