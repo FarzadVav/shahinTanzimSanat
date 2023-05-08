@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <div className="bg-white shadow-xl shadow-slate-300 w-11/12 flex flex-wrap gap-3 justify-evenly items-center p-3 rounded-xl
             absolute -bottom-48 left-1/2 -translate-x-1/2 md:-bottom-20">
-            <div className='bg-green-200 shadow-sm shadow-slate-400 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+            <div className='bg-green-200 main-shadow w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
@@ -50,7 +50,7 @@ export default function Home() {
               <h3 className='text-green-700 irsB mb-3 z-10
                 sm:mb-5'>تنطیم قطعات</h3>
             </div>
-            <div className='bg-green-200 shadow-sm shadow-slate-400 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+            <div className='bg-green-200 main-shadow w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
@@ -60,7 +60,7 @@ export default function Home() {
               <h3 className='text-green-700 irsB mb-3 z-10
                 sm:mb-5'>تنطیم قطعات</h3>
             </div>
-            <div className='bg-green-200 shadow-sm shadow-slate-400 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+            <div className='bg-green-200 main-shadow w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
@@ -70,7 +70,7 @@ export default function Home() {
               <h3 className='text-green-700 irsB mb-3 z-10
                 sm:mb-5'>تنطیم قطعات</h3>
             </div>
-            <div className='bg-green-200 shadow-sm shadow-slate-400 w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
+            <div className='bg-green-200 main-shadow w-32 h-32 flex justify-center items-end rounded-xl relative overflow-hidden
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
@@ -85,7 +85,7 @@ export default function Home() {
       </div>
 
       <div className="container px-3 sm:p-0">
-        <div className='bg-slate-200 shadow-sm shadow-slate-400 h-max flex flex-col justify-center items-center gap-5 mt-80 py-5 relative
+        <div className='bg-slate-200 main-shadow h-max flex flex-col justify-center items-center gap-5 mt-80 py-5 relative
           rounded-xl rounded-tr-none md:mt-48 sm:py-10'>
           <div className="h-12 flex absolute -top-12 right-0">
             <button className={`bg-slate-200 py-3 px-5 rounded-tr-md
@@ -140,30 +140,30 @@ export default function Home() {
           title="افتخارآفرینان شاهین تنظیم صنعت"
         />
         <div className="w-full flex flex-wrap gap-x-24 gap-y-16 justify-center items-center">
-          <div className="bg-slate-200 shadow-sm shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
+          <div className="bg-slate-200 main-shadow w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
           duration-500 group hover:h-[410px]">
             <div className="w-12 h-40 border-[1rem] border-dotted border-blue-500 absolute -right-6 top-5 opacity-25"></div>
-            <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
+            <div className="bg-slate-300 main-shadow w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
             <span className='text-slate-600 w-full text-sm text-center border-t border-slate-300 pt-1 mt-2'>مدیر عامل فنی و امور تخصصی</span>
             <p className='text-slate-600 w-full text-justify text-sm hidden pt-3 group-hover:block'>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که است.
             </p>
           </div>
-          <div className="bg-slate-200 shadow-sm shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
+          <div className="bg-slate-200 main-shadow w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
           duration-500 group hover:h-[410px]">
             <div className="w-12 h-40 border-[1rem] border-dotted border-blue-500 absolute -right-6 top-5 opacity-25"></div>
-            <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
+            <div className="bg-slate-300 main-shadow w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
             <span className='text-slate-600 w-full text-sm text-center border-t border-slate-300 pt-1 mt-2'>مدیر عامل فنی و امور تخصصی</span>
             <p className='text-slate-600 w-full text-justify text-sm hidden pt-3 group-hover:block'>
               لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که است.
             </p>
           </div>
-          <div className="bg-slate-200 shadow-sm shadow-slate-400 w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
+          <div className="bg-slate-200 main-shadow w-72 h-80 flex flex-col justify-end items-center rounded-xl p-3 relative
           duration-500 group hover:h-[410px]">
             <div className="w-12 h-40 border-[1rem] border-dotted border-blue-500 absolute -right-6 top-5 opacity-25"></div>
-            <div className="bg-slate-300 shadow-sm shadow-slate-400 w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
+            <div className="bg-slate-300 main-shadow w-64 h-64 rounded-xl absolute -left-5 -top-5"></div>
             <span className='text-slate-700 text-xl irsB mt-5'>فرزاد وحدتی نژاد</span>
             <span className='text-slate-600 w-full text-sm text-center border-t border-slate-300 pt-1 mt-2'>مدیر عامل فنی و امور تخصصی</span>
             <p className='text-slate-600 w-full text-justify text-sm hidden pt-3 group-hover:block'>
@@ -175,12 +175,12 @@ export default function Home() {
 
       <div className="container flex justify-center items-center gap-4 mt-24
         sm:gap-16 lg:gap-32">
-        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+        <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
           <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
-        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+        <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
           <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
@@ -188,7 +188,7 @@ export default function Home() {
       </div>
       <div className="container flex justify-center items-center gap-16 mt-12
         md:mt-8 lg:gap-16">
-        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 hidden flex-col justify-center items-center rounded-full
+        <div className="bg-slate-200 main-shadow w-40 h-40 hidden flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52 md:flex">
           <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
@@ -201,7 +201,7 @@ export default function Home() {
           <div className="bg-slate-200 w-[19rem] h-[19rem] rounded-full absolute -z-10 opacity-25
             lg:w-[20rem] lg:h-[20rem]"></div>
         </div>
-        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 hidden flex-col justify-center items-center rounded-full
+        <div className="bg-slate-200 main-shadow w-40 h-40 hidden flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52 md:flex">
           <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
@@ -209,12 +209,12 @@ export default function Home() {
       </div>
       <div className="container flex justify-center items-center gap-4 mt-12
         sm:gap-16 md:mt-8 lg:gap-32">
-        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+        <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
           <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
-        <div className="bg-slate-200 shadow-sm shadow-slate-400 w-40 h-40 flex flex-col justify-center items-center rounded-full
+        <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
           <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>

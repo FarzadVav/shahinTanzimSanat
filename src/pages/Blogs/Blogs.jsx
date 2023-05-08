@@ -4,7 +4,7 @@ import Title from "./../../components/Title"
 
 function BlogBox() {
   return (
-    <div className='bg-slate-200 shadow-sm shadow-slate-400 w-72 flex flex-col justify-center items-center gap-5 rounded-xl pb-3 px-3'>
+    <div className='bg-slate-200 main-shadow w-72 flex flex-col justify-center items-center gap-5 rounded-xl pb-3 px-3'>
       <div className="bg-slate-300 w-72 h-72 rounded-t-xl overflow-hidden"></div>
       <div className="w-full flex justify-center items-center h-12">
         <Link to='/single-blog' className='irsB text-center hover:text-blue-500'>چگونه دستگاه x را تهیه کنیم و آنرا نصب، سپس استفاده کنیم!</Link>

@@ -20,7 +20,9 @@
     font-family: 'irs';
     @apply text-gray-950 transition-all duration-200;
   }
+}
 
+@layer utilities {
   .irs {
     font-family: 'irs';
   }
@@ -33,6 +35,12 @@
     direction: ltr;
   }
 
+  .main-shadow {
+    @apply shadow-sm shadow-slate-400;
+  }
+}
+
+@layer components {
   .btn-outline-white {
     @apply text-white border border-white flex justify-center items-center gap-2 py-2 px-7 rounded-full hover:bg-white hover:text-blue-500;
   }
