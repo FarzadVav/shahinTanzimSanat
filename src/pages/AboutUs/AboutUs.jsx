@@ -1,12 +1,15 @@
 import React from 'react'
 import Title from '../../components/Title'
 
+import img from "./../../../public/imgs/gallery.jpg"
+
 function HonorBox(props) {
   return (
     <div className="bg-blue-500 outline outline-1 outline-blue-500 w-full h-32 flex justify-between items-center px-3 mb-32
-      group hover:bg-transparent hover:outline-offset-4 sm:w-8/12 sm:px-5 sm:rounded-l-md md:w-11/12 lg:w-10/12 lg:px-10 lg:mb-48">
+      group hover:bg-transparent hover:outline-offset-8 sm:w-8/12 sm:px-5 sm:rounded-l-md md:w-11/12 lg:w-10/12 lg:px-10 lg:mb-48">
       <h2 className="text-white w-1/2 hidden group-hover:text-blue-500 md:block">{props.title}</h2>
-      <div className="bg-slate-200 main-shadow w-56 h-56 rounded-md z-10 lg:w-72 lg:h-72"></div>
+      <div className="bg-slate-200 bg-opacity-50 backdrop-blur-md main-shadow w-56 h-56 flex justify-center items-center
+        rounded-md z-10 lg:w-72 lg:h-72"></div>
       <a href={props.link} className='text-white border border-white text-xs flex justify-center items-center gap-2 py-2 px-3 rounded-full
         group-hover:border-blue-500 group-hover:text-blue-500 hover:bg-blue-500 group-hover:hover:text-white lg:text-base lg:px-7'>{props.linkTitle}</a>
     </div>
@@ -16,8 +19,8 @@ function HonorBox(props) {
 export default function Honors() {
   return (
     <>
-      <div className='container mt-3 flex flex-col justify-center px-3
-      sm:p-0'>
+      <div className='container mt-3 flex flex-col justify-center gap-3 px-3
+          sm:p-0'>
         <Title
           svg={(
             <svg className='stroke-blue-500 w-10 h-10' viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,11 +28,19 @@ export default function Honors() {
               <path d="M7.51974 13.5198L7.50977 20.8998C7.50977 21.7998 8.13977 22.2398 8.91977 21.8698L11.5998 20.5999C11.8198 20.4899 12.1898 20.4899 12.4098 20.5999L15.0998 21.8698C15.8698 22.2298 16.5098 21.7998 16.5098 20.8998V13.3398" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
             </svg>
           )}
-          title='افتخارات شاهین تنظیم صنعت'
+          title='درباره شاهین تنظیم صنعت'
         />
+        <div className="bg-slate-200 main-shadow w-full h-[475px] rounded-md overflow-hidden">
+          <img className='w-full h-full object-cover' src={img} alt="شاهین تنظیم صنعت" />
+        </div>
+        <div className="w-full text-justify relative">
+          <b>لورم ایپسوم متن ساختگی</b> با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. <b>چاپگرها و متون</b> بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از <b>صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه</b> روزنامه و مجله در ستون و سطرآنچنان که لازم است.
+          لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و <b>سطرآنچنان که لازم است</b>.
+        </div>
       </div>
 
-      <div className="w-screen flex flex-col justify-center mt-16 lg:mt-24">
+      <div className="w-screen flex flex-col justify-center mt-16 lg:mt-32">
         <HonorBox
           title='مدرک بین المللی فلان مدرک بین المللی فلان مدرک بین المللی فلان مدرک بین المللی فلان مدرک بین المللی فلان مدرک بین المللی فلان'
           link='#'
