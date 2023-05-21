@@ -177,12 +177,14 @@ export default function Home() {
         sm:gap-16 lg:gap-32">
         <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
-          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <img className='w-20 drop-shadow-sm lg:w-28'
+            src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/pen.png?raw=true" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
         <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
-          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <img className='w-20 drop-shadow-sm lg:w-28'
+            src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/pen.png?raw=true" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
       </div>
@@ -190,12 +192,14 @@ export default function Home() {
         md:mt-8 lg:gap-16">
         <div className="bg-slate-200 main-shadow w-40 h-40 hidden flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52 md:flex">
-          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <img className='w-20 drop-shadow-sm lg:w-28'
+            src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/pen.png?raw=true" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
         <div className="bg-slate-200 w-56 h-56 flex justify-center items-center rounded-full relative
           lg:w-72 lg:h-72">
-          <img className='w-52' src="./../../public/imgs/logo-png.png" alt="logo" />
+          <img className='w-52'
+            src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/logo-png.png?raw=true" alt="logo" />
           <div className="bg-slate-200 w-[17rem] h-[17rem] rounded-full absolute -z-10 opacity-25
             lg:w-[22rem] lg:h-[22rem]"></div>
           <div className="bg-slate-200 w-[19rem] h-[19rem] rounded-full absolute -z-10 opacity-25
@@ -203,7 +207,8 @@ export default function Home() {
         </div>
         <div className="bg-slate-200 main-shadow w-40 h-40 hidden flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52 md:flex">
-          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <img className='w-20 drop-shadow-sm lg:w-28'
+            src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/pen.png?raw=true" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
       </div>
@@ -211,12 +216,14 @@ export default function Home() {
         sm:gap-16 md:mt-8 lg:gap-32">
         <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
-          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <img className='w-20 drop-shadow-sm lg:w-28'
+            src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/pen.png?raw=true" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
         <div className="bg-slate-200 main-shadow w-40 h-40 flex flex-col justify-center items-center rounded-full
           lg:w-52 lg:h-52">
-          <img className='w-20 drop-shadow-sm lg:w-28' src="./../../public/imgs/pen.png" alt="logo" />
+          <img className='w-20 drop-shadow-sm lg:w-28'
+            src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/pen.png?raw=true" alt="logo" />
           <h6 className='text-slate-500 w-1/2 text-sm text-center irsB lg:text-base'>نوشتن سناریو طراحی</h6>
         </div>
       </div>
