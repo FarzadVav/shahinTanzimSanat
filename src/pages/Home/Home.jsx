@@ -44,7 +44,7 @@ export default function Home() {
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
-                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+                  sm:-left-9 sm:-bottom-4' src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/tick.png?raw=true" alt="tick icon" />
               </div>
               <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
               <h3 className='text-green-700 irsB mb-3 z-10
@@ -54,7 +54,7 @@ export default function Home() {
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
-                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+                  sm:-left-9 sm:-bottom-4' src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/tick.png?raw=true" alt="tick icon" />
               </div>
               <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
               <h3 className='text-green-700 irsB mb-3 z-10
@@ -64,7 +64,7 @@ export default function Home() {
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
-                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+                  sm:-left-9 sm:-bottom-4' src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/tick.png?raw=true" alt="tick icon" />
               </div>
               <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
               <h3 className='text-green-700 irsB mb-3 z-10
@@ -74,7 +74,7 @@ export default function Home() {
               sm:w-36 sm:h-36'>
               <div className="bg-green-300 w-24 h-24 rounded-full absolute -right-5 -top-5">
                 <img className='drop-shadow-sm w-20 h-20 absolute -left-7 -bottom-3
-                  sm:-left-9 sm:-bottom-4' src="./../../public/imgs/tick.png" alt="tick icon" />
+                  sm:-left-9 sm:-bottom-4' src="https://github.com/FarzadVav/shahinTanzimSanat/blob/master/public/imgs/tick.png?raw=true" alt="tick icon" />
               </div>
               <div className="bg-white w-24 h-24 rounded-full absolute -left-5 -bottom-5 z-0 opacity-50 blur-lg"></div>
               <h3 className='text-green-700 irsB mb-3 z-10
